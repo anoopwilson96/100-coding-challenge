@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#logo{
+  height: 85px;
+  width:  85px;
+}
+#logotext{
+  color: rgb(39, 39, 190);
+  font-size: 35px;
+}
