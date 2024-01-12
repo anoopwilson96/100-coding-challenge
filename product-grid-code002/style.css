@@ -12,7 +12,7 @@
   font-size: 35px;
 }
 header{
-  background-color:rgb(110,157,21);
+  background-color:rgba(129, 236, 148, 0.903);
   padding: 15px;
   display: flex;
   flex-direction: row;
@@ -50,4 +50,59 @@ header{
   width: 1539px;
   margin-left: auto;
   margin-right: auto;
+}
+.buyImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 249px;
+  padding: 25px;
+  
+}
+.section2{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 25px;
+  padding: 1rem;
+  
+}
+.buyFruits{
+  background-color: rgba(129, 236, 148, 0.903);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buyVegitables{
+  background-color: rgba(129, 236, 148, 0.903);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buyLink{
+  text-decoration:none
+}
+.productImages
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 200px;
+}
+.productGrids{
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  padding: 15px;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
