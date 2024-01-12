@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: black;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+#normallogo {
+  width: 89px;
+   height: 27px;
+}
+#navlinks{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 30px;
+}
