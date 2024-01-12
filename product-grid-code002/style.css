@@ -8,11 +8,11 @@
   width:  85px;
 }
 #logotext{
-  color: rgb(247, 247, 250);
+  color: rgb(27, 27, 29);
   font-size: 35px;
 }
 header{
-  background-color: rgb(106, 160, 199);
+  background-color:rgb(110,157,21);
   padding: 15px;
   display: flex;
   flex-direction: row;
@@ -40,7 +40,7 @@ header{
 }
 .veg{
   width: 1539px;px;
-  height: 555px;
+  height: 300px;
 }
 .container{
   width: 1539px;
