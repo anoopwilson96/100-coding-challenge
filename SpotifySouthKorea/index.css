@@ -42,9 +42,55 @@ header{
 #section1{
   background-color: 
   rgb(255,205,210);
+  width: auto;
+  height: auto;
 }
 #section1 .container{
    display: grid;
    grid-template-columns:2fr 1fr ;
    gap: 175px;
+}
+.containerCont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+}
+#section1 #section1image{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+.button{
+  background-color:rgb(255,205,210); 
+  padding: 10px;
+  border-radius: 2rem;
+  margin-top: 15px;
+
+}
+.linkButton{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 2rem;
+  margin-top: 15px;
+
+}
+#section1 h1{
+  margin-bottom: 20px;
+}
+
+.h1{
+  font-size: 40px;
+}
+.p1{
+  font-size: 20px;
+}
+.smallp{
+  font-size: 15px;
 }
