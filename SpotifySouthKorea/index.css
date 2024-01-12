@@ -1,22 +1,45 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 header{
-  background-color: black;
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  align-items: center;
+  background-color:rgb(9, 6, 0) ;
+  height: 72px;
  
 }
-#normallogo {
-  width: 89px;
-   height: 27px;
-}
-#navlinks{
+#headerid{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+}
+#navList{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+}
+.listCont{
+  
   list-style-type: none;
-  gap: 30px;
+}
+.listLink{
+  text-decoration: none;
+  color: white;
+}
+#spotifytoplogo{
+  height: 75;
+  width: 160px;
+}
+.container{
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#section1{
+  background-color: 
+  rgb(255,205,210);
 }
