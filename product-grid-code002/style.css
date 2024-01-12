@@ -37,6 +37,10 @@ header{
 .linkList{
   text-decoration: none;
   color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
 }
 .veg{
   width: 1539px;px;
