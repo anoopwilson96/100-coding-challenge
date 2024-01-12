@@ -8,6 +8,43 @@
   width:  85px;
 }
 #logotext{
-  color: rgb(39, 39, 190);
+  color: rgb(247, 247, 250);
   font-size: 35px;
+}
+header{
+  background-color: rgb(106, 160, 199);
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.logoAtext{
+  display: flex;
+  flex-direction: row;
+  justify-self:flex-start;
+  align-items: center;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-content: center;
+}
+.linkCont{
+  list-style-type: none;
+}
+.linkList{
+  text-decoration: none;
+  color: white;
+}
+.veg{
+  width: 1539px;px;
+  height: 555px;
+}
+.container{
+  width: 1539px;
+  margin-left: auto;
+  margin-right: auto;
+  pad
 }
