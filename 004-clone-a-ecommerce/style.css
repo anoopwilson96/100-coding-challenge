@@ -11,7 +11,7 @@ body{
 
 .container{
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -47,6 +47,10 @@ body{
   align-items: center;
   
 }
+header{
+  padding: .75rem;
+border-bottom: 1px  solid rgb(240,243,242)  ;
+}
 
 .header1{
   display: flex;
@@ -54,7 +58,9 @@ body{
   justify-content: center;
   background-color:rgb(240,243,242);
   padding:0.5rem ;
-  /*max-width: 1300px;*/
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
@@ -66,12 +72,10 @@ body{
 #header2{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+ justify-content: space-between;
   align-items: center;
-  padding: .75rem;
-  border-bottom: 1px  solid rgb(240,243,242)  ;
+  padding-top: 1rem;}
 
-}
 
 #nav{
   display: flex;
@@ -115,6 +119,13 @@ translate: 50% -35%;
 
 
 
+#header3{
+  display: none;
+}
+
+
+
+
 @media (min-width: 768px) {
   /* Your styles for tab screens go here | Came (UK flag)+ENGLISH+arrow on header1 */
 
@@ -141,15 +152,97 @@ translate: 50% -35%;
     margin-right: auto;
 
 }
-
-
-@media (min-width: 990px) {
-  /* Your styles for big tab screens go here | Came  search and location in header2 | Came All departments and other navigations */
-#menuButton{
-  display: none;
+#header2{
+  padding-top: .75rem;
+  max-width: 1200px;
 }
 
 
 
+#header3{
+  display: none;
+}
+
+header{
+  padding: .75rem;
+border-bottom: 1px  solid rgb(240,243,242)  ;
+}
+
+
+
+
+@media (min-width: 990px) {
+  /* Your styles for big tab screens go here | Came  search and location in header2 | Came All departments and other navigations */
+
+  #menuButton{
+  display: none;
+}
+
+header{
+    padding: .75rem;
+  border-bottom: 1px  solid rgb(240,243,242)  ;
+}
+
+#header2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+#header3{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 1.75rem;
+}
+#header3 button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  color: rgb(69,114,157);
+  font-weight: 500;
+  border: none;
+  background-color: white;
+  font-size: 0.85rem;
+  border-radius: 0;
+  
+}
+
+#header3 #allDepartmentButton .material-symbols-outlined{
+  color: white;
+  font-weight: lighter;
+}
+
+#header3 #allDepartmentButton{
+  display: flex;
+  background-color: rgb(9,173,21);
+  color: white;
+  gap: .5rem;
+  padding: .5rem 1rem;
+  border-radius: 0.5rem;
+}
+#header3 a{
+  list-style: none;
+  text-decoration: none;
+  color: rgb(69,114,157);
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+
+}
+
+#header3 #Docs{
+
+  font-family: 'Inter', sans-serif;
+  color: rgb(69,114,157);
+  font-weight: 500;
+  font-size: 0.85rem;
+}
 
 }
