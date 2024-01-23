@@ -8,20 +8,30 @@ text-decoration: none;
 body{
   font-family: 'Inter', sans-serif;
 }
+
 .container{
   width: 100%;
   max-width: 1300px;
   margin: auto;
 }
-/*rgb(240,243,242)*/
+
+
 #logoPhoto{
   height: 42px;
   width: 50px;;
 }
+
+
+.header1 img{
+  height: 0.75rem;
+  width: 0.85rem;
+}
+
 #header1Text{
   font-weight: 500;
   color:rgb(103,110,135);
   font-size: 15px;
+
 }
 #logoText{
   
@@ -37,6 +47,22 @@ body{
   align-items: center;
   
 }
+
+.header1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color:rgb(240,243,242);
+  padding:0.5rem ;
+  /*max-width: 1300px;*/
+
+}
+
+.language{
+  display: none;
+}
+
+
 #header2{
   display: flex;
   flex-direction: row;
@@ -45,16 +71,6 @@ body{
   padding: .75rem;
   border-bottom: 1px  solid rgb(240,243,242)  ;
 
-
-
-}
-#header1{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color:rgb(240,243,242);
-  padding:0.5rem ;
-
 }
 
 #nav{
@@ -62,7 +78,8 @@ body{
   flex-direction: row;
   gap: 1.5rem;
   list-style: none;
-  
+}
+
 .material-symbols-outlined{
   color:rgb(105, 111, 133);
 
@@ -98,19 +115,41 @@ translate: 50% -35%;
 
 
 
+@media (min-width: 768px) {
+  /* Your styles for tab screens go here | Came (UK flag)+ENGLISH+arrow on header1 */
 
+  .language {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 500;
+    color: rgb(103, 110, 135);
+    font-size: 15px;
+  }
+  .language #languageExpand{
+    padding: 0;
+    font-size: 1rem;
+  }
 
-@media (min-width: 765px) {
-  /* Your styles for tab screens go here | Came (UK flag)+ENGLISH+arrow on header1*/
+  .header1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 
-
-}
-
-
-@media (min-width: 990px)  {
+@media (min-width: 990px) {
   /* Your styles for big tab screens go here | Came  search and location in header2 | Came All departments and other navigations */
+#menuButton{
+  display: none;
 }
 
+
+
+
+}
