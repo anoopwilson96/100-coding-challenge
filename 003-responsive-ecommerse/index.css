@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
+  list-style: none;
+  text-decoration: none;
 
 }
 
@@ -13,9 +16,14 @@ background-color: cadetblue;
   height: 32px;
   width: 32px;
 }
-#logoText{
+.menu
+{
+  display: none;
+} 
 
-  font-family: 'Oswald', sans-serif;
+#logoText{
+font-weight: 800;
+font-size: 1.75rem;
 
 }
 
