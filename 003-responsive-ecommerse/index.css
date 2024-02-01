@@ -7,13 +7,16 @@
   text-decoration: none;
 
 }
+header{
+  background-color: rgb(255, 183, 3) ;
+}
 
 header input{
   border: none;
   padding: .25rem;
   margin: .45rem;
   border-radius: .75rem;
-  background-color: rgb(246, 227, 28);
+  background-color: rgb(245, 243, 220);
   border: 1px solid ;
 }
 
@@ -49,10 +52,19 @@ padding: 1rem 1rem;
   background-image: url(./images/cafeteria.png);
   background-size: cover;
   background-position: center;
+}
 .section2{
   font-family: 'Roboto Slab', serif;
 }
- 
+
+.section3 img{
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Styles for screens between 576px and 767.98px (Small devices) */
